@@ -1,0 +1,220 @@
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    min-height: 1800px;
+}
+.container{
+    width: 960px !important;
+}
+.navbar-change{
+    display: block;
+    background-color: #1abc9c;
+    height: 50px;
+    width: 100%;
+    margin: 0 auto;
+}
+.navbar-default-change .navbar-nav-change .selected a{
+    background-color: #16a085;
+}
+
+#navbargrid .col-xs-2{
+    padding:0 9px;
+}
+
+.navbar-header-change{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+#brandwin{
+    height: 100%;
+}
+
+.navbar-header-change a{
+    display: block;
+    position: relative;
+    height: 100%;
+    padding: 5px 0 3px 0;
+    background-color: #16a085;
+    text-align: center;
+    font-style: oblique;
+    font-size: 29px;
+    font-weight: 600;
+    color:#ffffff;
+    text-decoration: none;
+}
+.navbar-nav-change{
+    padding: 0;
+}
+.navbar-default-change .navbar-nav-change li{
+    list-style: none;
+}
+.navbar-default-change .navbar-nav-change li a{
+    display: block;
+    padding: 16px 0 13px 0;
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight:500;
+    transition: background-color 0.3s linear;
+    -webkit-transition: background-color 0.3s linear;
+    -moz-transition: background-color 0.3s linear;
+}
+
+.navbar-default-change .navbar-nav-change li a:hover{
+    background-color: #16a085;
+}
+
+.navbar-change .container{
+    height: 50px;
+    width: 960px;
+    padding: 0;
+}
+.navbar-change{
+    border: 0px;
+    padding: 0;
+    margin: 0;
+}
+#video-bg{
+    position: static;
+    height: 1800px;
+    background-color: #ffffff;
+}
+.videodiv .container{
+    width: 960px;
+}
+
+.videodiv .container .row .col-md-1{
+    padding:0px 9px 0px 9px;
+}
+
+#themecn{
+    color: #16a085;
+    display: block;
+    line-height: 65px;
+    padding-top: 58px;
+    margin-bottom: 0;
+    font-size: 65px;
+    font-weight: 900;
+    font-family: "FZLanTingHei-R-GBK","Microsoft JhengHei","HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue",  sans-serif;
+}
+#themeen{
+    padding-top: 6px;
+}
+#detail{
+    font-family: "FZLanTingHei-R-GBK","Microsoft JhengHei","HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue",  sans-serif;
+    line-height: 13px;
+    text-align: left;
+    color: #000;
+    font-size: 13px;
+    font-weight: 900;
+    margin-top: 40px;
+    padding: 0px;
+}
+#detail span{
+    line-height: 25px;
+    font-weight: 900;
+}
+#greenblock{
+    float: left;
+    height: 32px;
+    width: 5px;
+    margin-right: 10px;
+    background-color: #16a085;
+}
+
+#photoarea{
+    margin-top: 30px ;
+    padding: 0 5px;
+}
+
+#photoarea .row .col-xs-3{
+    padding: 0px 9px;
+}
+
+#nonephoto{
+    width: 222px;
+    height: 222px;
+    background-color: #636363;
+    transition: background-color 1s ease-out;
+    -webkit-transition: background-color 1s ease-out;
+    -moz-transition: background-color 1s ease-out;
+}
+
+#nonephoto:hover{
+    background-color: #2ecc71;
+}
+
+#photoarea img{
+    width: 222px;
+}
+.hoverphoto{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 222px;
+    margin-left: 9px;
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+    -webkit-transition: opacity 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out;
+}
+.hoverphoto:hover{
+    opacity: 1;
+}
+
+
+#secondrow{
+    margin-top: 55px;
+}
+.videotime{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+}
+#circle{
+    background-color: #16a085;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-top: 240px;
+    height: 30px;
+    width: 30px;
+}
+#footerdivider{
+    background-color: #1abc9c;
+    height: 2px;
+}
+footer{
+    background-color: #ffffff;
+    height: 100px;
+}
+footer .container{
+    width: 960px;
+    height: 100%;
+}
+footer .container .row{
+    text-align: center;
+    height: 100%;
+}
+#footer-logo{
+    text-align: center;
+    line-height: 24px;
+    height: 100%;
+    padding-top: 25px;
+}
+#footerwin{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    font-style: oblique;
+    font-weight: 900;
+    color: #16a085;
+}
+#footercn{
+    font-family: "Lantinghei SC", "Microsoft JhengHei", "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", sans-serif;
+    font-size: 15px;
+    color: #16a085;
+}
+footer img{
+    width: 90%;
+    padding-top: 30px;
+}

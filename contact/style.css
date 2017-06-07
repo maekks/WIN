@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #000000;
+    font-family:"Lantinghei SC","Myriad Pro","Helvetica Neue", "Arial", sans-serif;
+    height: auto;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+    height: 100%;
+}
+header{
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    width: 100%;
+    background-color: #1abc9c;
+    height: 50px;
+}
+header nav{
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+}
+nav ul{
+    height: 100%;
+    overflow: hidden;
+
+}
+nav ul a{
+    display: inline-block;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin-left:25px;
+    width: 135px;
+    vertical-align: middle;
+}
+
+nav ul a li{
+    display: block;
+    padding-top: 16px;
+    height: 100%;
+    list-style: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.3s linear;
+    -webkit-transition: background-color 0.3s linear;
+}
+nav ul a li:hover{
+    background-color: #16a085;
+}
+#brand{
+    background-color: #16a085;
+    margin-left: 0;
+}
+#brand-text{
+    padding-top: 8px;
+    font-size: 29px;
+    font-weight: 600;
+    font-style: oblique;
+}
+
+.selected{
+    background-color: #16a085;
+}
+#contact-bg{
+    width: 100%;
+    height: 1100px;
+    background: #000000 url(img/back-banner.jpg) no-repeat center center;
+    background-size: cover;
+}
+h1{
+    padding: 142px 0 60px 0;
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 500;
+    text-align: center;
+}
+#contact-intro{
+    width: 734px;
+    height: 860px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+#contact-intro img{
+    padding-bottom: 7px;
+}
+#contact-intro div{
+    line-height: 25px;
+    width: 660px;
+    margin: 0 auto;
+    padding-top: 41px;
+    font-weight: 500;
+}
+#contact-intro div p{
+    font-size: 14px;
+}
+h3{
+    font-size: 14px;
+    color:#3498db;
+}
+#contact-intro a{
+    text-decoration: none;
+    color: #16a085;
+}
+.bold-word{
+    color: #e74c3c;
+}
+
+footer{
+    background-color: #ffffff;
+}
+#footer-divider{
+    margin-top: 77px;
+    background-color: #1abc9c;
+    height: 2px;
+}
+#footer-contact ul li{
+    display: inline-block;
+
+}
+#footer-contact ul li a{
+    text-decoration: none;
+}
+#footer-contact ul{
+    text-align: center;
+}
+#footer-contact ul img{
+    padding: 0 15px;
+    margin-bottom: 10px;
+}
+#footer-text{
+    margin: 0 190px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#footerwin{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    font-style: oblique;
+    font-weight: 900;
+    color: #16a085;
+}
+#footercn{
+    font-family: "Lantinghei SC", "Microsoft JhengHei", "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", sans-serif;
+    font-size: 15px;
+    color: #16a085;
+}

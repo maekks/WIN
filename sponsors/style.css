@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #fff;
+    font-family:"Helvetica Neue", "Arial", sans-serif;
+}
+header{
+    width: 100%;
+    background-color: #1abc9c;
+    height: 50px;
+}
+header nav{
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+}
+nav ul{
+    height: 100%;
+    overflow: hidden;
+
+}
+nav ul a{
+    display: inline-block;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin-left:25px;
+    width: 135px;
+    vertical-align: middle;
+}
+
+nav ul a li{
+    display: block;
+    padding-top: 16px;
+    height: 100%;
+    list-style: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.3s linear;
+    -webkit-transition: background-color 0.3s linear;
+}
+nav ul a li:hover{
+    background-color: #16a085;
+}
+
+#brand{
+    background-color: #16a085;
+    margin-left: 0;
+}
+#brand-text{
+    padding-top: 8px;
+    font-size: 29px;
+    font-weight: 600;
+    font-style: oblique;
+}
+
+.selected{
+    background-color: #16a085;
+}
+
+#why{
+    width: 960px;
+    margin: 120px auto 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: solid #ecf0f1 10px;
+    text-align: center;
+    font-family: "Hiragino Sans GB", "FZLanTingHei", "Microsoft JhengHei", "Helvetica", "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", "Arial", sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    color:#333333;
+    transition: border 1s ease-in;
+    -webkit-transition: border 1s ease-in;
+}
+#why:hover{
+    border: solid #16a085 10px;
+}
+#why h3{
+    display: block;
+    font-size: 20px;
+    color: #09287e;
+    margin-bottom: 50px;
+}
+#why p{
+    font-size: 15px;
+}
+#why #contact{
+    color: #16a085;
+    display: block;
+    margin-top: 65px;
+}
+#why #contact a, a:active{
+    color: #09287e;
+    text-decoration: none;
+    transition: color 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+}
+#why #contact a:hover{
+    color: #1abc9c;
+    border-color: #1abc9c;
+}
+
+#sponsors #host{
+    margin-top: 300px;
+    text-align: center;
+}
+#sponsors #host h4{
+    display: block;
+    font-size: 20px;
+    color: #7f8c8d;
+    margin-bottom: 33px;
+    font-weight: bold;
+}
+#sponsors #host img{
+    opacity: 0.7;
+    transition: opacity 0.3s ease-out;
+    -webkit-transition: opacity 0.3s ease-out;
+}
+#sponsors #host img:hover{
+    opacity: 1;
+}
+.special-link{
+    border-bottom: dashed #09287e 1px;
+}
+.sponsorslist{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.sponsorslist h4{
+    font-size: 20px;
+    color: #7f8c8d;
+    font-weight: bold;
+}
+.sponsorslist p{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 75px;
+    font-size: 15px;
+    color: #7f8c8d;
+    font-weight: 100;
+}
+.sponsorslist ul li{
+    display: inline-block;
+    margin: 0px 45px 75px 45px;
+}
+.sponsorslist ul li h4{
+    font-weight: bold;
+    color: #7f8c8d;
+    font-size: 20px;
+    margin-bottom:20px;
+}
+.sponsorslist ul li img{
+    opacity: 0.3;
+    transition: opacity 0.3s ease-out;
+    -webkit-transition: opacity 0.3s ease-out;
+}
+.sponsorslist ul li img:hover{
+    opacity: 1;
+}
+#footerdivider{
+    background-color: #1abc9c;
+    height: 2px;
+}
+#footer-contact ul li{
+    display: inline-block;
+
+}
+#footer-contact ul li a{
+    text-decoration: none;
+}
+#footer-contact ul{
+    text-align: center;
+}
+#footer-contact ul img{
+    padding: 0 15px;
+    margin-bottom: 10px;
+}
+#footer-text{
+    margin: 0 190px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#footerwin{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    font-style: oblique;
+    font-weight: 900;
+    color: #16a085;
+}
+#footercn{
+    font-family: "Lantinghei SC", "Microsoft JhengHei", "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", sans-serif;
+    font-size: 15px;
+    color: #16a085;
+}
